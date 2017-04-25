@@ -1,0 +1,14 @@
+package com.example.Demo.View.Interface;
+
+import com.example.Demo.Bean.UserBean;
+
+/**
+ * Created by Administrator on 2017/4/25.
+ */
+
+public interface UpdateImforViewImpl {
+    void showImfor(UserBean user);
+
+    /*读取所有editview的信息*/
+    void saveImfor();
+}
